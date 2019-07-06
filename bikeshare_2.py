@@ -399,7 +399,8 @@ def station_stats(df):
                 else:
                     stations_dict[station] += 1
 
-
+    #most efficient way to find max value of dictionaries
+    #k is the key and v is the value
     max_value = max(stations_dict.values())  # maximum value
     max_keys = [k for k, v in stations_dict.items() if v == max_value] # getting all keys containing the `maximum`
     print(max_value, max_keys)
