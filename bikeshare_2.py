@@ -325,7 +325,7 @@ def time_stats(df):
             full_date = line.split(',')[1]
             compressed_date = full_date.split(' ')[1]
             hours = compressed_date.split(':')[0]
-            for hour hours:
+            for hour in hours:
                 if hour not in hours_dict:
                     hours_dict[hour] = 1
                 else:
@@ -345,7 +345,7 @@ def time_stats(df):
             full_date = line.split(',')[1]
             compressed_date = full_date.split(' ')[1]
             hours = compressed_date.split(':')[0]
-            for hour hours:
+            for hour in hours:
                 if hour not in hours_dict:
                     hours_dict[hour] = 1
                 else:
@@ -365,7 +365,7 @@ def time_stats(df):
             full_date = line.split(',')[1]
             compressed_date = full_date.split(' ')[1]
             hours = compressed_date.split(':')[0]
-            for hour hours:
+            for hour in hours:
                 if hour not in hours_dict:
                     hours_dict[hour] = 1
                 else:
